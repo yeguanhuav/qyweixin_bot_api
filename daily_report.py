@@ -10,7 +10,7 @@ import numpy as np
 import requests
 
 # 企业微信机器人
-webhook = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=4f7adbbc-e23c-4ea0-b450-5a795372c200"
+webhook = "https://qyapi.weixin.qq.com/cgi-bin/webhook/......"
 header = {"Content-Type": "text/plain"}
 
 #%%
@@ -22,7 +22,6 @@ dy_1 = datetime.date.today() - datetime.timedelta(days=1)
 day_gap = int(str(dy_1 - datetime.date(2021, 11, 17))[0:2]) # 今年开售日期
 # 去年当日
 day_last_year = datetime.date(2020, 12, 3) + datetime.timedelta(days=day_gap)
-
 
 #%%
 # 个人每日投保量统计

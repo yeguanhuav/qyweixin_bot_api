@@ -27,11 +27,11 @@ pname = 'project_name'
 # 最后一封发送的每日参保量报表邮件的标题
 email_subject = pname + '统计数据-截止至' + sent_time
 # 企业微信机器人
-webhook = "https://qyapi.weixin.qq.com/webhook/"
+webhook = "https://qyapi.weixin.qq.com/webhook/......"
 header = {"Content-Type": "application/json"}
 # 连接邮箱
 conn=imaplib.IMAP4_SSL(port="993", host="imap.exmail.qq.com")
-conn.login("your_email@email.com", "dynamic_passwd")
+conn.login("xxx@email.com", "dynamic_passwd")
 
 #%%
 # 显示邮箱所有文件夹
